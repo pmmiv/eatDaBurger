@@ -1,0 +1,44 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+}
+
+section {
+	background-color: rgba(255, 255, 255, .6);
+	width: 50%;
+	position: relative;
+	left: 25%;
+	top: 100px;
+	padding: 80px;
+}
+
+#left {
+	border-right: solid 1px;
+	text-align: right;
+	padding-right: 40px;
+}
+
+#right {
+	border-left: solid 1px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+#bottom {
+	margin-top: 40px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 10px;
+}
+
+li {
+	margin-top: 4px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
